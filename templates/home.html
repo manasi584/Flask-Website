@@ -10,6 +10,9 @@
 </head>
   
 <body >
+  <div style="height:56px;">
+  {%include 'nav.html'%}
+    </div>
   <div class="container">
 <h1 >Welcome to {{company}}</h1>
   <div class="text-center"><img src="static/banner1.jpg" alt="banner" id = "banner" class="img-fluid""></div>
@@ -31,5 +34,7 @@
     
   <div id="contactContainer" ><button id="contact" class=" btn btn-primary">Contact Us</button></div>
     </div>
+
+{%include 'footer.html'%}
 </body>
 </html>

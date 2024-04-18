@@ -11,7 +11,7 @@ COURSE=[
   {
     'id':2,
     'title':'Fundamentals of Options Trading',
-    'location':'Offline'
+    'location':'Offline - New Delhi'
     
   },
   {
